@@ -1,0 +1,59 @@
+body {
+  font-family: 'Alfa Slab One', cursive;
+  font-size:6rem;
+  background:#2c333a;
+}
+
+div {
+  width:80%;
+  margin:4rem auto;
+  text-align:center;
+  perspective: 800px;
+ }
+
+span {
+   display:inline-block;
+   margin-left: -20px;
+   color:#77c6bc;
+}
+
+
+span:nth-child(2n) {
+  color:#95b8cb;
+}
+
+span:nth-child(1) {
+}
+
+span:nth-child(2) {
+  margin-right:30px;
+}
+
+span:nth-child(3) {
+ margin-right:30px;
+}
+
+span:nth-child(4) {
+}
+
+span:nth-child(5) {
+  margin-left:-28px;
+ }
+
+span:nth-child(6) {
+}
+
+span:nth-child(7) { 
+}
+
+
+
+
+
+
+
+
+
+
+
+

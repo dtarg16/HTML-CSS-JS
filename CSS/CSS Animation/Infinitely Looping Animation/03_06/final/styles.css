@@ -1,0 +1,14 @@
+.sprite {
+	width:500px;
+	height:500px;
+	display:block;	
+	background:transparent url(walker_frames.png) 0 0 no-repeat;
+	margin:3em auto;
+	animation: walker 2s steps(10) infinite;
+}
+
+
+@keyframes walker {
+	0% {background-position: 0 0;}
+	100% {background-position: 0 -5000px;}
+}

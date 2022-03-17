@@ -1,0 +1,19 @@
+
+body {margin: 4em 10%; background:#493F5B;}
+				
+ .ball {
+	animation-name: move-left-right;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+ 	animation-delay:1s; 
+}
+
+@keyframes move-left-right {
+	0% {transform: translateX(100px) rotate(0turn);}
+	20% {transform: translateX(-10px) rotate(-0.5turn);}
+	100% {transform:translateX(450px) rotate(2turn);}			
+}
+
+
+				

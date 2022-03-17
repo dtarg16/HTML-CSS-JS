@@ -1,0 +1,19 @@
+
+body {
+	background-color: #D8E8FA;
+}
+
+.wrapper {
+	margin: 2em auto 2em auto;
+	perspective: 1000px;
+}
+
+img {
+	display:block;
+	margin: 0 auto;
+
+	transform: translate3d(100px, 200px, -100px);
+
+}
+
+

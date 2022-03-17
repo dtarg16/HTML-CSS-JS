@@ -1,0 +1,80 @@
+body {
+  font-family: 'Alfa Slab One', cursive;
+  font-size:6rem;
+  background:#2c333a;
+}
+
+div {
+  width:80%;
+  margin:4rem auto;
+  text-align:center;
+  perspective: 800px;
+ }
+
+span {
+   display:inline-block;
+   margin-left: -20px;
+   color:#77c6bc;
+   transform-origin: 50% 70%;
+}
+
+
+span:nth-child(2n) {
+  color:#95b8cb;
+}
+
+span:nth-child(1) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both,
+             flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2s forwards;  
+}
+
+span:nth-child(2) {
+  margin-right:30px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both,
+             flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.2s forwards;
+}
+
+span:nth-child(3) {
+ margin-right:30px;
+ animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both,
+            flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.4s forwards;
+}
+
+span:nth-child(4) {
+ animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both,
+            flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.6s forwards;
+}
+
+span:nth-child(5) {
+  margin-left:-28px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both,
+            flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2.8s forwards;
+ }
+
+span:nth-child(6) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both,
+             flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 3s forwards;
+}
+
+span:nth-child(7) { 
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.2s both,
+             flipDown .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 3.2s forwards;
+}
+
+@keyframes flipUp {
+  from {transform: rotateX(90deg);}
+  to {tranform: rotateX(0deg);}
+}
+
+
+@keyframes flipDown {
+   to {transform: rotateX(-180deg);}
+}
+
+
+
+
+
+
+
+

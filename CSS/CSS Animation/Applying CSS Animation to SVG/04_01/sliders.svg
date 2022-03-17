@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px"
+	 height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<g id="frame">
+	<g>
+		<path fill="#010101" d="M37.038,40H2.963C1.329,40,0,38.671,0,37.037V2.963C0,1.329,1.329,0,2.963,0h34.075
+			C38.67,0,40,1.329,40,2.963v34.074C40,38.671,38.67,40,37.038,40z M2.963,2.963v34.074h34.076L37.038,2.963H2.963z"/>
+	</g>
+</g>
+<g id="bars">
+	<g>
+		<rect x="25.185" y="5.926" fill="#010101" width="2.963" height="28.147"/>
+	</g>
+	<g>
+		<rect x="12.649" y="5.926" fill="#010101" width="2.963" height="28.147"/>
+	</g>
+</g>
+<g id="sliders">
+	<g id="slider-r">
+		<rect x="24.657" y="19.298" fill="#FFFFFF" width="4.019" height="5.628"/>
+		<path d="M27.675,20.298v3.628h-2.019v-3.628H27.675 M28.675,18.298h-4.019c-0.553,0-1,0.448-1,1v5.628c0,0.553,0.447,1,1,1h4.019
+			c0.552,0,1-0.447,1-1v-5.628C29.675,18.746,29.227,18.298,28.675,18.298L28.675,18.298z"/>
+	</g>
+	<g id="slider-l">
+		<rect x="12.121" y="10.561" fill="#FFFFFF" width="4.019" height="5.628"/>
+		<path d="M15.14,11.561v3.628h-2.019v-3.628H15.14 M16.14,9.561h-4.019c-0.553,0-1,0.448-1,1v5.628c0,0.553,0.447,1,1,1h4.019
+			c0.552,0,1-0.447,1-1v-5.628C17.14,10.009,16.691,9.561,16.14,9.561L16.14,9.561z"/>
+	</g>
+</g>
+</svg>

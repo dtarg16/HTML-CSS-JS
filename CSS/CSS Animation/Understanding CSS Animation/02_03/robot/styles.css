@@ -1,0 +1,32 @@
+
+body {
+	background-image: url('background.png');
+	background-size: cover;
+	background-position: 0px -250px;
+}
+
+.wrapper {
+	margin: 20em auto 2em auto;
+	width:80%;
+	position:relative;
+}
+
+.robot {
+	animation-name: slide;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+
+@keyframes slide {
+	from {transform: translateX(0);}
+	to {transform: translateX(900px);}
+}
+
+
+
+
+
+
+
