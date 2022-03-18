@@ -4,7 +4,7 @@
 
 ## General
 - https://codepen.io
-
+- https://github.com/planetoftheweb/sassEssentials
 
 ## CSS
 - https://cubic-bezier.com/#.17,.67,.83,.67
