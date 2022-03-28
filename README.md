@@ -19,3 +19,9 @@
 - https://bouncejs.com
 - https://greensock.com
 - https://snapsvg.io
+- https://webpack.js.org/
+- https://rollupjs.org/guide/en/
+- https://yarnpkg.com/
+- https://www.npmjs.com/
+- https://babeljs.io/
+- https://www.typescriptlang.org/
