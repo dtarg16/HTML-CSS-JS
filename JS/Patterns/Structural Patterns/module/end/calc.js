@@ -1,5 +1,5 @@
 const calc = () => {
-    return 4 * 3
+    return 10 * 9;
 }
 
 export default calc;
