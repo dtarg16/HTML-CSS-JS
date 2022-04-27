@@ -1,0 +1,10 @@
+h1 {
+    font-family: Arial;
+    color: blueviolet;
+}
+
+#image {
+    background: url('ski-day.jpg');
+    height: 500px;
+    width: 500px;
+}

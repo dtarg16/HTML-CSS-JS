@@ -1,0 +1,25 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "Learning all about webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -w"
+  },
+  "keywords": [
+    "webpack",
+    "preprocessing",
+    "react"
+  ],
+  "author": "Eve Porcello",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

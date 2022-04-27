@@ -1,0 +1,181 @@
+{
+  "errors": [
+    "./src/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: Cannot find module '@babel/preset-react' from '/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start'\n    at Function.module.exports [as sync] (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/resolve/lib/sync.js:58:15)\n    at resolveStandardizedName (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:101:31)\n    at resolvePreset (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:58:10)\n    at loadPreset (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:77:20)\n    at createDescriptor (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:154:9)\n    at items.map (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:109:50)\n    at Array.map (<anonymous>)\n    at createDescriptors (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:109:29)\n    at createPresetDescriptors (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:101:10)\n    at presets (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:47:19)\n    at mergeChainOpts (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:320:26)\n    at /Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:283:7\n    at buildRootChain (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:120:22)\n    at loadPrivatePartialConfig (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/partial.js:85:55)\n    at Object.loadPartialConfig (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/partial.js:110:18)\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:140:26)\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:3:103)\n    at _next (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:194)\n    at /Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:364\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:97)\n    at Object._loader (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:220:18)\n    at Object.loader (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:56:18)\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:51:12)"
+  ],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
+  ],
+  "version": "4.28.4",
+  "hash": "ba9f67a796f8f8dc6e4b",
+  "time": 831,
+  "builtAt": 1547435642210,
+  "publicPath": "",
+  "outputPath": "/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "main.js",
+      "size": 4146,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ]
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 3217,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "e142ce0efb7c46faa452",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js??ref--4!/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 3217,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 44,
+            "building": 537
+          },
+          "failed": true,
+          "errors": 1,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Cannot find module '@babel/preset-react' from '/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start'\\n    at Function.module.exports [as sync] (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/resolve/lib/sync.js:58:15)\\n    at resolveStandardizedName (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:101:31)\\n    at resolvePreset (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:58:10)\\n    at loadPreset (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:77:20)\\n    at createDescriptor (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:154:9)\\n    at items.map (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:109:50)\\n    at Array.map (<anonymous>)\\n    at createDescriptors (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:109:29)\\n    at createPresetDescriptors (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:101:10)\\n    at presets (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:47:19)\\n    at mergeChainOpts (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:320:26)\\n    at /Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:283:7\\n    at buildRootChain (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:120:22)\\n    at loadPrivatePartialConfig (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/partial.js:85:55)\\n    at Object.loadPartialConfig (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/partial.js:110:18)\\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:140:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:97)\\n    at Object._loader (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:220:18)\\n    at Object.loader (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:56:18)\\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:51:12)\");"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js??ref--4!/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 3217,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 44,
+        "building": 537
+      },
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Cannot find module '@babel/preset-react' from '/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start'\\n    at Function.module.exports [as sync] (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/resolve/lib/sync.js:58:15)\\n    at resolveStandardizedName (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:101:31)\\n    at resolvePreset (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:58:10)\\n    at loadPreset (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/files/plugins.js:77:20)\\n    at createDescriptor (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:154:9)\\n    at items.map (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:109:50)\\n    at Array.map (<anonymous>)\\n    at createDescriptors (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:109:29)\\n    at createPresetDescriptors (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:101:10)\\n    at presets (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-descriptors.js:47:19)\\n    at mergeChainOpts (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:320:26)\\n    at /Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:283:7\\n    at buildRootChain (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/config-chain.js:120:22)\\n    at loadPrivatePartialConfig (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/partial.js:85:55)\\n    at Object.loadPartialConfig (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/@babel/core/lib/config/partial.js:110:18)\\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:140:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:5:97)\\n    at Object._loader (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:220:18)\\n    at Object.loader (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:56:18)\\n    at Object.<anonymous> (/Users/Lynda/Desktop/Exercise Files/Ch02/02_04/start/node_modules/babel-loader/lib/index.js:51:12)\");"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
